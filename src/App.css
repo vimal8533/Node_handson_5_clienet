@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.loginParent{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-direction: column;
+  height: 30vh;
+  background-color: chocolate;
+  border-radius: 5px;
+  margin: 10px 30%;
 }
-
-.App-link {
-  color: #61dafb;
+.nameButton{
+  margin: 5px;
+  background-color: aqua;
+  
 }
+.nameParent{
+  height: 50px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.flex{
+  display: flex;
+}
+.userNameGreeting{
+padding: 10px; 
+color: red;
+}
+.chatParent{
+  height: 60vh;
+  margin: 20px 20%;
+  scroll-behavior: auto;
+  background-color: teal;
+}
+.messageInput{
+  width: 350px;
+  padding: 5px ;
+  font-size: 24px;
+  margin: 10px;
+  font-weight: 600;
+
+}
+.SendButton{
+    padding: 7px;
+      font-size: 24px;
+      background-color: blue;
+      font-style: italic;
+      font-weight: 600;
+      margin-left: 10px;
+      color: white;
+}
+.footer{
+  position: fixed;
+  bottom: 22%; width: 100%;
+}
+.resiver{
+  background-color: white;
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+}
+.resiverCointainer{
+  /* display: flex; */
+  justify-content: start;
+  flex-direction: column;
+}
+.senderCointainer{
+    /* display: flex; */
+    text-align: end;
+      /* justify-content: end; */
+      flex-direction: column;
+}
+.sender{
+    background-color: rgb(136, 236, 136);
+      display: inline;
+      padding: 5px;
+      margin: 5px;
+      margin-top: 7px;
 }
